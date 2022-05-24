@@ -1,10 +1,10 @@
 {
   "name": "@fogitoteam/test-core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "this is test package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "push-and-publish": "git add . && git commit -m 'changes' && git push origin 'main' && npm publish"
   },
   "author": "",
   "license": "ISC"
